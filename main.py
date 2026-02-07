@@ -10,12 +10,15 @@ import json
 import os
 import sys
 from pathlib import Path
-
+import uuid
 from dotenv import load_dotenv
 
 from graph import graph
 
 from utils import _strip_markdown_json
+
+from langfuse import get_client, propagate_attributes
+langfuse_client = get_client()
 
 load_dotenv()
 
@@ -117,22 +120,24 @@ def main():
         "judge_feedback_json": "",
     }
 
-    result = graph.invoke(initial_state)
-    comparison = result.get("comparison_result_json") or ""
-    comparison = _strip_markdown_json(comparison)
-    judge_feedback = result.get("judge_feedback_json") or ""
-    judge_feedback = _strip_markdown_json(judge_feedback)
+    with langfuse_client.start_as_current_observation(as_type="span", name="resume-skills-matcher"):
+        with propagate_attributes(session_id=str(uuid.uuid4())):
+            result = graph.invoke(initial_state)
+            comparison = result.get("comparison_result_json") or ""
+            comparison = _strip_markdown_json(comparison)
+            judge_feedback = result.get("judge_feedback_json") or ""
+            judge_feedback = _strip_markdown_json(judge_feedback)
 
-    # Default: comparison in result.json, judge feedback in feedback.json (when --judge)
-    comparison_file = args.output if args.output is not None else Path("result.json")
-    feedback_file = args.feedback if args.feedback is not None else Path("feedback.json")
+            # Default: comparison in result.json, judge feedback in feedback.json (when --judge)
+            comparison_file = args.output if args.output is not None else Path("result.json")
+            feedback_file = args.feedback if args.feedback is not None else Path("feedback.json")
 
-    comparison_file.write_text(comparison, encoding="utf-8")
-    print(f"Comparison saved to: {comparison_file}")
+            comparison_file.write_text(comparison, encoding="utf-8")
+            print(f"Comparison saved to: {comparison_file}")
 
-    if args.judge and judge_feedback:
-        feedback_file.write_text(judge_feedback, encoding="utf-8")
-        print(f"Judge feedback saved to: {feedback_file}")
+            if args.judge and judge_feedback:
+                feedback_file.write_text(judge_feedback, encoding="utf-8")
+                print(f"Judge feedback saved to: {feedback_file}")
 
 
 if __name__ == "__main__":

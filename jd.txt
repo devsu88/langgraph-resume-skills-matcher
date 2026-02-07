@@ -1,0 +1,224 @@
+{
+  "CAD_Engineer_Skills": [
+    {
+      "skill": "Cadence Virtuoso",
+      "justification": "Industry-standard platform for analog and mixed-signal design and layout verification."
+    },
+    {
+      "skill": "Synopsys Custom Compiler",
+      "justification": "Used for schematic entry, simulation, and layout editing; CAD engineers often develop or maintain PCells for it."
+    },
+    {
+      "skill": "Mentor Graphics Calibre",
+      "justification": "Essential for DRC/LVS checks; CAD engineers automate Calibre runs and debug verification errors."
+    },
+    {
+      "skill": "Synopsys IC Compiler II (ICC2)",
+      "justification": "Commonly used for digital place and route; CAD engineers create flow scripts and debug tool issues."
+    },
+    {
+      "skill": "Cadence Innovus",
+      "justification": "Used for physical implementation; understanding its flow is vital for building robust CAD automation."
+    },
+    {
+      "skill": "PrimeTime (Synopsys)",
+      "justification": "Static timing analysis tool; CAD engineers maintain signoff timing flows and constraint management scripts."
+    },
+    {
+      "skill": "StarRC / Quantus QRC",
+      "justification": "Parasitic extraction tools that need CAD flow integration for post-layout verification."
+    },
+    {
+      "skill": "Spectre / HSPICE",
+      "justification": "Analog and mixed-signal circuit simulators; CAD engineers optimize simulation environments."
+    },
+    {
+      "skill": "Virtuoso ADE / ADEXL",
+      "justification": "Environment for parametric analysis, corner simulations, and regression automation."
+    },
+    {
+      "skill": "RedHawk / Voltus",
+      "justification": "Power integrity analysis tools; CAD teams automate signoff runs."
+    },
+    {
+      "skill": "Mentor Graphics Pyxis / Tanner EDA",
+      "justification": "Used in smaller analog design flows or academic and prototyping contexts."
+    },
+    {
+      "skill": "Python",
+      "justification": "Used for automating EDA flows, data processing, and tool interfacing."
+    },
+    {
+      "skill": "Perl",
+      "justification": "Legacy scripting language widely used in semiconductor automation flows."
+    },
+    {
+      "skill": "TCL/Tk",
+      "justification": "Core scripting for Synopsys and Cadence tools; crucial for flow control and GUI customization."
+    },
+    {
+      "skill": "Shell Scripting (bash, csh, ksh)",
+      "justification": "Used for flow orchestration, job management, and cluster automation."
+    },
+    {
+      "skill": "Make / CMake",
+      "justification": "For dependency management in complex build environments."
+    },
+    {
+      "skill": "Groovy",
+      "justification": "Used in Jenkins pipelines for CI/CD integration."
+    },
+    {
+      "skill": "EDA Tool Flow Integration",
+      "justification": "CAD engineers design end-to-end flows connecting synthesis, P&R, verification, and signoff stages."
+    },
+    {
+      "skill": "Regression Automation",
+      "justification": "Automating daily or nightly tool regression runs to verify EDA flow stability."
+    },
+    {
+      "skill": "Tool Installation and License Management",
+      "justification": "Setting up and managing EDA environments and license servers."
+    },
+    {
+      "skill": "Continuous Integration (CI/CD)",
+      "justification": "Integrating EDA tools with Jenkins or GitLab CI for reproducible builds."
+    },
+    {
+      "skill": "Custom PDK Development",
+      "justification": "Extending foundry PDKs with in-house models or layers."
+    },
+    {
+      "skill": "PCell Development (SKILL / Python)",
+      "justification": "Creating parametric layout cells to speed up analog layout."
+    },
+    {
+      "skill": "Tool QA and Benchmarking",
+      "justification": "Evaluating new tool versions and benchmarking runtime, memory, and accuracy."
+    },
+    {
+      "skill": "Analog and Mixed-Signal Design Flow Understanding",
+      "justification": "Required for automating Virtuoso-based design flows."
+    },
+    {
+      "skill": "Digital Design Flow Understanding",
+      "justification": "Necessary to integrate synthesis, STA, and P&R tools coherently."
+    },
+    {
+      "skill": "Timing Closure and ECO Flow",
+      "justification": "CAD engineers support designers with timing convergence tools and scripts."
+    },
+    {
+      "skill": "Low Power Design Methodologies (UPF/CPF)",
+      "justification": "Important for developing low-power verification and flow checks."
+    },
+    {
+      "skill": "DFM / DRC / LVS Signoff Flow",
+      "justification": "Ensures physical designs meet foundry rules and are ready for tapeout."
+    },
+    {
+      "skill": "Reliability and ESD Checks",
+      "justification": "Automating reliability checks using Calibre PERC or equivalent tools."
+    },
+    {
+      "skill": "Corner and Monte Carlo Simulation Automation",
+      "justification": "Used for statistical design verification and yield prediction."
+    },
+    {
+      "skill": "C / C++",
+      "justification": "Used for developing high-performance EDA utilities and tool plugins."
+    },
+    {
+      "skill": "SKILL Language (Cadence)",
+      "justification": "Proprietary Cadence scripting language for automation and PCell creation."
+    },
+    {
+      "skill": "Data Structures and Algorithms",
+      "justification": "Needed for optimizing CAD scripts and managing large design data efficiently."
+    },
+    {
+      "skill": "Version Control (Git, Perforce)",
+      "justification": "For managing scripts, PDKs, and flow releases across teams."
+    },
+    {
+      "skill": "API Integration (REST, gRPC)",
+      "justification": "For building custom CAD dashboards or EDA tool interfaces."
+    },
+    {
+      "skill": "Database Handling (SQL, MongoDB)",
+      "justification": "For storing regression results, tool metrics, and metadata."
+    },
+    {
+      "skill": "Linux System Administration",
+      "justification": "Core requirement since most EDA tools run on Linux servers."
+    },
+    {
+      "skill": "Job Scheduler (LSF, Slurm, PBS)",
+      "justification": "For distributing large-scale simulations and jobs across compute farms."
+    },
+    {
+      "skill": "High-Performance Computing (HPC)",
+      "justification": "Optimizing workloads for parallel execution and simulation scalability."
+    },
+    {
+      "skill": "Docker / Singularity",
+      "justification": "Used for containerizing EDA environments reproducibly."
+    },
+    {
+      "skill": "NFS and Storage Management",
+      "justification": "Ensures fast access to large design databases and layouts."
+    },
+    {
+      "skill": "Cluster Monitoring (Grafana, Prometheus)",
+      "justification": "Used for resource usage monitoring and tool performance tracking."
+    },
+    {
+      "skill": "Semiconductor Process Nodes (7nm, 5nm, etc.)",
+      "justification": "Understanding PDK complexity and design rule constraints at advanced nodes."
+    },
+    {
+      "skill": "EDA Licensing Models",
+      "justification": "Required for managing floating and token-based licenses efficiently."
+    },
+    {
+      "skill": "Design Kits and Foundry Interfaces",
+      "justification": "Ensures compatibility between EDA flows and foundry deliverables."
+    },
+    {
+      "skill": "RTL to GDSII Flow",
+      "justification": "Full design cycle understanding for robust CAD automation development."
+    },
+    {
+      "skill": "Design for Test (DFT)",
+      "justification": "Familiarity helps integrate testability checks in design flows."
+    },
+    {
+      "skill": "Silicon Validation and Post-Silicon Debug",
+      "justification": "Understanding final design validation process aids in CAD tool development."
+    },
+    {
+      "skill": "Chip Tapeout Process",
+      "justification": "Awareness of the final signoff and GDSII delivery process ensures successful tapeouts."
+    },
+    {
+      "skill": "Problem Solving and Debugging",
+      "justification": "Core to resolving EDA tool crashes, flow inconsistencies, and automation issues."
+    },
+    {
+      "skill": "Documentation and Versioning",
+      "justification": "Ensures reproducible CAD environments and clear process handoffs."
+    },
+    {
+      "skill": "Collaboration with Design Teams",
+      "justification": "Essential for tailoring CAD tools to meet analog and digital design team needs."
+    },
+    {
+      "skill": "Mentoring and Knowledge Sharing",
+      "justification": "Common in senior CAD roles responsible for guiding junior engineers and sharing best practices."
+    },
+    {
+      "skill": "Project Management and Prioritization",
+      "justification": "For managing tool release cycles, automation requests, and support tickets efficiently."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "matching_summary": {
+    "total_jd_skills": 80,
+    "total_candidate_skills": 57,
+    "exact_matches": 3,
+    "semantic_matches": 4,
+    "technology_family_matches": 2,
+    "total_matches": 9,
+    "match_percentage": 11.25
+  },
+  "matched_skills": [
+    {
+      "jd_skill": "Python",
+      "candidate_skill": "Python",
+      "match_type": "exact",
+      "candidate_experience_years": 2.5,
+      "jd_justification": "Used for automating EDA flows, data processing, and tool interfacing.",
+      "candidate_justification": "Explicitly stated as a Programming Language; used for automation and data processing.",
+      "match_strength": "strong",
+      "match_reasoning": "The exact match in skill sets with 2.5 years of relevant experience demonstrates a solid competency in Python, crucial for the role."
+    },
+    {
+      "jd_skill": "C / C++",
+      "candidate_skill": "C++",
+      "match_type": "exact",
+      "candidate_experience_years": 2.5,
+      "jd_justification": "Used for developing high-performance EDA utilities and tool plugins.",
+      "candidate_justification": "Listed as a Programming Language with relevant experience derived from internships and current role.",
+      "match_strength": "strong",
+      "match_reasoning": "Direct alignment with the requirement, as the candidate has experience in C++, which is essential for high-performance utilities."
+    },
+    {
+      "jd_skill": "Data Structures and Algorithms",
+      "candidate_skill": "Data Structures and Algorithms",
+      "match_type": "exact",
+      "candidate_experience_years": "Unknown",
+      "jd_justification": "Needed for optimizing CAD scripts and managing large design data efficiently.",
+      "candidate_justification": "Listed without concrete application references but is a critical area of knowledge.",
+      "match_strength": "moderate",
+      "match_reasoning": "While the candidate has knowledge of data structures and algorithms, the lack of defined experience may hinder practical application in the role."
+    },
+    {
+      "jd_skill": "SQL",
+      "candidate_skill": "SQL",
+      "match_type": "exact",
+      "candidate_experience_years": 2.5,
+      "jd_justification": "For storing regression results, tool metrics, and metadata.",
+      "candidate_justification": "Used in both internship and current role, totaling 2.5 years.",
+      "match_strength": "strong",
+      "match_reasoning": "The direct experience with SQL complements the requirement for data handling in the role."
+    },
+    {
+      "jd_skill": "Version Control (Git, Perforce)",
+      "candidate_skill": "Git",
+      "match_type": "technology_family",
+      "candidate_experience_years": "Unknown",
+      "jd_justification": "For managing scripts, PDKs, and flow releases across teams.",
+      "candidate_justification": "Mentioned as a tool but lacks specific experience.",
+      "match_strength": "weak",
+      "match_reasoning": "While the candidate has knowledge of Git, the absence of clear experience may limit effectiveness in collaborative workflows."
+    },
+    {
+      "jd_skill": "Database Handling (SQL, MongoDB)",
+      "candidate_skill": "SQL",
+      "match_type": "semantic",
+      "candidate_experience_years": 2.5,
+      "jd_justification": "For storing regression results, tool metrics, and metadata.",
+      "candidate_justification": "Used in both internship and current role, totaling 2.5 years.",
+      "match_strength": "strong",
+      "match_reasoning": "The candidate's SQL experience aligns well with the database handling requirements, showing capability in data management."
+    },
+    {
+      "jd_skill": "Linux System Administration",
+      "candidate_skill": "Linux",
+      "match_type": "technology_family",
+      "candidate_experience_years": "Unknown",
+      "jd_justification": "Core requirement since most EDA tools run on Linux servers.",
+      "candidate_justification": "Mentioned in skills but lacks defined context in roles.",
+      "match_strength": "weak",
+      "match_reasoning": "Knowledge of Linux is relevant, yet further clarity on practical experience is needed to fully assess fit."
+    },
+    {
+      "jd_skill": "Process Automation",
+      "candidate_skill": "Process Automation",
+      "match_type": "semantic",
+      "candidate_experience_years": 1.5,
+      "jd_justification": "Automating daily or nightly tool regression runs to verify EDA flow stability.",
+      "candidate_justification": "Found in Associate CAD Engineer role with explicit mentions for implementing automation.",
+      "match_strength": "moderate",
+      "match_reasoning": "Experience in process automation can translate into valuable skills relevant for automating EDA tools."
+    },
+    {
+      "jd_skill": "Problem Solving and Debugging",
+      "candidate_skill": "Test-Driven Development (TDD)",
+      "match_type": "semantic",
+      "candidate_experience_years": 1.5,
+      "jd_justification": "Core to resolving EDA tool crashes, flow inconsistencies, and automation issues.",
+      "candidate_justification": "Emphasized in the context of quality assurance and development processes.",
+      "match_strength": "weak",
+      "match_reasoning": "While TDD reflects strong problem-solving capabilities, it does not fully cover debugging extensive EDA flows."
+    }
+  ],
+  "unmatched_jd_skills": [
+    {
+      "skill": "Cadence Virtuoso",
+      "justification": "Industry-standard platform for analog and mixed-signal design and layout verification; critical for CAD engineers.",
+      "criticality": "critical"
+    },
+    {
+      "skill": "Synopsys Custom Compiler",
+      "justification": "Important for schematic entry and simulation; CAD engineers should be adept in its use.",
+      "criticality": "critical"
+    },
+    {
+      "skill": "Mentor Graphics Calibre",
+      "justification": "Essential for DRC/LVS checks; CAD engineers automate Calibre runs and debug verification errors.",
+      "criticality": "critical"
+    },
+    {
+      "skill": "Synopsys IC Compiler II (ICC2)",
+      "justification": "Important for digital place and route; knowledge is critical for CAD automation.",
+      "criticality": "critical"
+    },
+    {
+      "skill": "Cadence Innovus",
+      "justification": "Understanding its flow is vital for building robust CAD automation.",
+      "criticality": "important"
+    },
+    {
+      "skill": "PrimeTime (Synopsys)",
+      "justification": "Used for static timing analysis; essential for managing timing flows.",
+      "criticality": "important"
+    },
+    {
+      "skill": "StarRC / Quantus QRC",
+      "justification": "Needed for parasitic extraction post-layout verification.",
+      "criticality": "important"
+    },
+    {
+      "skill": "Analog and Mixed-Signal Design Flow Understanding",
+      "justification": "Required for automating Virtuoso-based design flows.",
+      "criticality": "important"
+    },
+    {
+      "skill": "EDA Tool Flow Integration",
+      "justification": "Designing end-to-end flows is fundamental for the role.",
+      "criticality": "critical"
+    },
+    {
+      "skill": "Regression Automation",
+      "justification": "Necessary for maintaining EDA tool stability and reliability.",
+      "criticality": "important"
+    },
+    {
+      "skill": "Continuous Integration (CI/CD)",
+      "justification": "Familiarity with CI/CD processes for EDA tools is increasingly important.",
+      "criticality": "important"
+    }
+  ],
+  "additional_candidate_skills": [
+    {
+      "skill": "Agile Methodology",
+      "years_of_experience": 2.3,
+      "potential_value": "Strong understanding of Agile can support project management and efficiency in a CAD context."
+    },
+    {
+      "skill": "Communication",
+      "years_of_experience": 2.5,
+      "potential_value": "Effective communication is crucial for collaboration within engineering teams."
+    },
+    {
+      "skill": "Teamwork",
+      "years_of_experience": 2.5,
+      "potential_value": "Teamwork supports collaborative problem solving in CAD projects."
+    }
+  ],
+  "assessment_insights": {
+    "strengths": [
+      "Proficiency in Python, C++, and SQL",
+      "Demonstrated experience in process automation and TDD",
+      "Strong soft skills in communication, teamwork, and Agile methodologies"
+    ],
+    "gaps": [
+      "Lack of experience with key EDA tools such as Cadence Virtuoso and Synopsys.",
+      "Missing critical skills related to DRC/LVS checks and regression automation."
+    ],
+    "transferable_skills": [
+      "Agile Methodology and teamwork can enhance the candidate's adaptability."
+    ],
+    "overall_fit_score": 50,
+    "recommendation": "While the candidate possesses strong programming and automation skills, they should ideally gain experience with specific EDA tools and processes critical to the role."
+  }
+}

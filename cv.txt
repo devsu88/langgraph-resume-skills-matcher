@@ -1,0 +1,52 @@
+Shuvam Banerjee
+shuvambanerjee017@gmail.com | https://www.linkedin.com/in/shuvam-banerjee/
+Motivated engineer with a passion for programming, automation, and mathematics. Proven track record
+in reducing manual work through scripting and full-stack development. Quick to adapt, skilled at
+debugging large codebases, and driven by the potential of AI to simplify lives. Strong believer in
+collaboration and clear communication to build impactful solutions.
+SKILLS
+Programming Languages: Python, C++, SQL, Bash
+Tools & Platforms: Linux, Git, GitHub, VCS, Perforce, SQLite
+Web Development: Full stack web development, HTML, CSS, JavaScript
+Data & AI: Data Structures and Algorithms, Data Science, Data Analysis, Machine Learning modules
+Soft Skills: Communication, Teamwork, Tenacity
+EXPERIENCE
+CAD Engineer Feb 2023 - Present
+Micron Technology, Inc., Hyderabad
+● Directed four high-impact projects, optimizing layout, verification, packaging and design
+workflows – 60 % reduction in manual effort and turnaround time
+● Led agile execution using Scrum and Jira, enhancing chip tapeout protocols and delivering a
+robust, user-centric dashboard through full-stack development
+● Facilitated cross-departmental presentations and demos, driving alignment, knowledge
+exchange, and effective resolution of complex technical challenges
+Associate CAD Engineer Jul 2021 - Jan 2023
+Micron Technology, Inc., Hyderabad
+• Collaborated with cross-functional teams and clients, conducting in-depth research and strategic
+discussions to proactively resolve operational challenges
+• Implemented automation using Test-Driven Development (TDD), delivering scalable solutions for
+packaging, design, and verification—reducing manual effort from days to minutes
+• Enhanced workflow efficiency by developing agile scripts and tools that accelerated layout and
+chip verification processes, ensuring reliability and speed
+• Provided expert support on automation and process optimization, leveraging JIRA to streamline
+issue resolution and foster cohesive team collaboration
+Software Development Intern May 2019 - Jul 2019
+Department of Planning and Statistics, Government of West Bengal, Kolkata
+● Developed a user-centric software tool with an intuitive GUI to compute Gini coefficients and
+coefficients of variation, enhancing analytical precision for data-driven decision-making.
+● Conducted comprehensive research on economic topics, integrating insights from industry
+reports to align software functionality with strategic objectives and market dynamics.
+● Delivered end-to-end support and training, ensuring smooth adoption and effective utilization of
+the tool, empowering teams to streamline workflows and significantly reduce manual effort.
+EDUCATION
+Bachelor of Engineering (B.E.) - Electrical and Electronics Engineering Aug 2017 - Jul 2021
+Birla Institute of Technology and Science, Pilani, Hyderabad
+Minor Degree in Data Science
+HONORS & AWARDS
+Culture Champion 2024
+Micron Technology, Inc.
+Awarded for exceptional teamwork, tenacity and problem solving for developing methodology flow for
+packaging team in Micron.
+Recognized for execution 2022
+Micron Technology, Inc.
+Recognized by Director for tenaciously collaborating with teams across company to help define new
+workflows and provided timely support to ramp up production.
